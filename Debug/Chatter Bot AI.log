@@ -1,0 +1,114 @@
+﻿  Voice.cpp
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\voice.cpp(15): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Learner.cpp
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(10): error C2653: 'Learner': is not a class or namespace name
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(15): error C2275: 'std::string': illegal use of this type as an expression
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xstring(4079): note: see declaration of 'std::string'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(15): error C2146: syntax error: missing ')' before identifier 'identifier'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(16): error C2955: 'std::identity': use of class template requires template argument list
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\type_traits(1557): note: see declaration of 'std::identity'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(16): error C3861: 'getline': identifier not found
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(17): error C2065: 'identifier': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(19): error C2065: 'identifier': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(19): error C3861: 'getline': identifier not found
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(20): error C2065: 'identifier': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(22): error C2065: 'responce': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(22): error C3861: 'getline': identifier not found
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(23): error C2065: 'voice': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(23): error C2228: left of '.say' must have class/struct/union
+  c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(23): note: type is 'unknown-type'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(31): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(488): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(468): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(448): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(428): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(408): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(388): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(368): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(348): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(328): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(308): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(283): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(263): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(229): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(203): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(197): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(192): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(1011): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(973): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(963): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(956): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(949): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(942): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(816): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(769): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(731): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(684): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(31): note: while trying to match the argument list '(std::fstream, std::string)'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(31): error C2065: 'end1': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(33): error C2065: 'voice': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(33): error C2228: left of '.say' must have class/struct/union
+  c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(33): note: type is 'unknown-type'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(36): error C3861: 'getline': identifier not found
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(37): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::string' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(488): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(468): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(448): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(428): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(408): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(388): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(368): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(348): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(328): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(308): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(283): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(263): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(229): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(203): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(197): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(192): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(1011): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(973): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(963): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(956): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(949): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(942): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(816): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(769): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(731): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\ostream(684): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(37): note: while trying to match the argument list '(std::fstream, std::string)'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(37): error C2065: 'end1': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\learner.cpp(41): error C2653: 'Learner': is not a class or namespace name
+  Chatter Bot AI.cpp
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(7): error C2065: 'Learner': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(7): error C2146: syntax error: missing ';' before identifier 'AI'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(7): error C2065: 'AI': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(10): error C2065: 'cout': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(11): error C2065: 'string': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(11): error C2146: syntax error: missing ';' before identifier 'phrase'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(11): error C2065: 'phrase': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2065: 'istream': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2144: syntax error: 'char' should be preceded by ')'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C3861: 'getline': identifier not found
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2144: syntax error: 'char' should be preceded by ';'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2146: syntax error: missing ';' before identifier 'n'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2059: syntax error: ')'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(12): error C2065: 'n': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(14): error C2065: 'cout': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(15): error C2065: 'AI': undeclared identifier
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(15): error C2228: left of '.say' must have class/struct/union
+  c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(15): note: type is 'unknown-type'
+c:\users\nickb\source\repos\chatter bot ai\chatter bot ai\chatter bot ai.cpp(15): error C2065: 'phrase': undeclared identifier
+  Generating Code...
